@@ -1,0 +1,42 @@
+{
+  "name": "vue-bulma",
+  "version": "0.1.0",
+  "description": "Vue implementation of Bulma CSS framework",
+  "main": "dist/main.js",
+  "files": [
+    "/dist"
+  ],
+  "typings": "dist/main.d.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Vue",
+    "Bulma"
+  ],
+  "author": {
+    "name": "Dorian Herlory",
+    "url": "https://laboiteadodo.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/webpack": "^4.41.22",
+    "ts-loader": "^8.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "peerDependencies": {
+    "bulma": "^0.9.0"
+  }
+}

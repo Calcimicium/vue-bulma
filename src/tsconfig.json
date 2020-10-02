@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"declaration": true,
+		"declarationDir": "../dist",
+		"experimentalDecorators": true,
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"paths": {
+			"@/*": ["./*"]
+		},
+		"strict": true,
+		"target": "ES5"
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"**/*.ts",
+		"**/*.vue"
+	]
+}
